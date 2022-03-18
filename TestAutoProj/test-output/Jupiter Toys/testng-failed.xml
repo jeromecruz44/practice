@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jupiter Toys]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Basic Functionalities(failed)">
+    <classes>
+      <class name="TestCases.ContactPage">
+        <methods>
+          <include name="TC3_invalid_field_input_validation"/>
+          <include name="TC2_successful_feedback_submission_validation"/>
+          <include name="closeBrowser"/>
+          <include name="browseJupiterToys"/>
+          <include name="TC1_mandatory_field_error_validation"/>
+        </methods>
+      </class> <!-- TestCases.ContactPage -->
+      <class name="TestCases.ShopPage">
+        <methods>
+          <include name="TC4_shopping_cart_item_validation"/>
+          <include name="browseJupiterToys"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.ShopPage -->
+    </classes>
+  </test> <!-- Basic Functionalities(failed) -->
+</suite> <!-- Failed suite [Jupiter Toys] -->
